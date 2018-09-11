@@ -11,5 +11,10 @@ public class MovieController {
         return "index";
     }
 
+    @GetMapping("/hello")
+    public String hello(){
+        return "Hello";
+    }
+
 
 }
