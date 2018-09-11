@@ -16,5 +16,11 @@ public class MovieController {
         return "Hello";
     }
 
+    @GetMapping("/dev_clbo")
+    public String clbo(){
+        return "clbo";
+    }
+
+
 
 }
